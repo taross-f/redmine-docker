@@ -1,2 +1,2 @@
 *.log
-/redmine/log/
+log/
