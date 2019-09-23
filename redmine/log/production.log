@@ -1,0 +1,947 @@
+Migrating to Setup (1)
+Migrating to IssueMove (2)
+Migrating to IssueAddNote (3)
+Migrating to ExportPdf (4)
+Migrating to IssueStartDate (5)
+Migrating to CalendarAndActivity (6)
+Migrating to CreateJournals (7)
+Migrating to CreateUserPreferences (8)
+Migrating to AddHideMailPref (9)
+Migrating to CreateComments (10)
+Migrating to AddNewsCommentsCount (11)
+Migrating to AddCommentsPermissions (12)
+Migrating to CreateQueries (13)
+Migrating to AddQueriesPermissions (14)
+Migrating to CreateRepositories (15)
+Migrating to AddRepositoriesPermissions (16)
+Migrating to CreateSettings (17)
+Migrating to SetDocAndFilesNotifications (18)
+Migrating to AddIssueStatusPosition (19)
+Migrating to AddRolePosition (20)
+Migrating to AddTrackerPosition (21)
+Migrating to SerializePossiblesValues (22)
+Migrating to AddTrackerIsInRoadmap (23)
+Migrating to AddRoadmapPermission (24)
+Migrating to AddSearchPermission (25)
+Migrating to AddRepositoryLoginAndPassword (26)
+Migrating to CreateWikis (27)
+Migrating to CreateWikiPages (28)
+Migrating to CreateWikiContents (29)
+Migrating to AddProjectsFeedsPermissions (30)
+Migrating to AddRepositoryRootUrl (31)
+Migrating to CreateTimeEntries (32)
+Migrating to AddTimelogPermissions (33)
+Migrating to CreateChangesets (34)
+Migrating to CreateChanges (35)
+Migrating to AddChangesetCommitDate (36)
+Migrating to AddProjectIdentifier (37)
+Migrating to AddCustomFieldIsFilter (38)
+Migrating to CreateWatchers (39)
+Migrating to CreateChangesetsIssues (40)
+Migrating to RenameCommentToComments (41)
+Migrating to CreateIssueRelations (42)
+Migrating to AddRelationsPermissions (43)
+Migrating to SetLanguageLengthToFive (44)
+Migrating to CreateBoards (45)
+Migrating to CreateMessages (46)
+Migrating to AddBoardsPermissions (47)
+Migrating to AllowNullVersionEffectiveDate (48)
+Migrating to AddWikiDestroyPagePermission (49)
+Migrating to AddWikiAttachmentsPermissions (50)
+Migrating to AddProjectStatus (51)
+Migrating to AddChangesRevision (52)
+Migrating to AddChangesBranch (53)
+Migrating to AddChangesetsScmid (54)
+Migrating to AddRepositoriesType (55)
+Migrating to AddRepositoriesChangesPermission (56)
+Migrating to AddVersionsWikiPageTitle (57)
+Migrating to AddIssueCategoriesAssignedToId (58)
+Migrating to AddRolesAssignable (59)
+Migrating to ChangeChangesetsCommitterLimit (60)
+Migrating to AddRolesBuiltin (61)
+Migrating to InsertBuiltinRoles (62)
+Migrating to AddRolesPermissions (63)
+Migrating to DropPermissions (64)
+Migrating to AddSettingsUpdatedOn (65)
+Migrating to AddCustomValueCustomizedIndex (66)
+Migrating to CreateWikiRedirects (67)
+Migrating to CreateEnabledModules (68)
+Migrating to AddIssuesEstimatedHours (69)
+Migrating to ChangeAttachmentsContentTypeLimit (70)
+Migrating to AddQueriesColumnNames (71)
+Migrating to AddEnumerationsPosition (72)
+Creating scope :system. Overwriting existing method Enumeration.system.
+Migrating to AddEnumerationsIsDefault (73)
+Migrating to AddAuthSourcesTls (74)
+Migrating to AddMembersMailNotification (75)
+Migrating to AllowNullPosition (76)
+Migrating to RemoveIssueStatusesHtmlColor (77)
+Migrating to AddCustomFieldsPosition (78)
+Migrating to AddUserPreferencesTimeZone (79)
+Migrating to AddUsersType (80)
+Creating scope :sorted. Overwriting existing method Group.sorted.
+Creating scope :sorted. Overwriting existing method User.sorted.
+Migrating to CreateProjectsTrackers (81)
+Migrating to AddMessagesLocked (82)
+Migrating to AddMessagesSticky (83)
+Migrating to ChangeAuthSourcesAccountLimit (84)
+Migrating to AddRoleTrackerOldStatusIndexToWorkflows (85)
+Migrating to AddCustomFieldsSearchable (86)
+Migrating to ChangeProjectsDescriptionToText (87)
+Migrating to AddCustomFieldsDefaultValue (88)
+Migrating to AddAttachmentsDescription (89)
+Migrating to ChangeVersionsNameLimit (90)
+Migrating to ChangeChangesetsRevisionToString (91)
+Migrating to ChangeChangesFromRevisionToString (92)
+Migrating to AddWikiPagesProtected (93)
+Migrating to ChangeProjectsHomepageLimit (94)
+Migrating to AddWikiPagesParentId (95)
+Migrating to AddCommitAccessPermission (96)
+Migrating to AddViewWikiEditsPermission (97)
+Migrating to SetTopicAuthorsAsWatchers (98)
+Migrating to AddDeleteWikiPagesAttachmentsPermission (99)
+Migrating to AddChangesetsUserId (100)
+Migrating to PopulateChangesetsUserId (101)
+Migrating to AddCustomFieldsEditable (102)
+Migrating to SetCustomFieldsEditable (103)
+Migrating to AddProjectsLftAndRgt (104)
+Migrating to BuildProjectsTree (105)
+Migrating to RemoveProjectsProjectsCount (106)
+Migrating to AddOpenIdAuthenticationTables (107)
+Migrating to AddIdentityUrlToUsers (108)
+Migrating to AddWatchersUserIdTypeIndex (20090214190337)
+Migrating to AddQueriesSortCriteria (20090312172426)
+Migrating to AddProjectsTrackersUniqueIndex (20090312194159)
+Migrating to ExtendSettingsName (20090318181151)
+Migrating to AddTypeToEnumerations (20090323224724)
+Migrating to UpdateEnumerationsToSti (20090401221305)
+Migrating to AddActiveFieldToEnumerations (20090401231134)
+Migrating to AddProjectToEnumerations (20090403001910)
+Migrating to AddParentIdToEnumerations (20090406161854)
+Migrating to AddQueriesGroupBy (20090425161243)
+Migrating to CreateMemberRoles (20090503121501)
+Migrating to PopulateMemberRoles (20090503121505)
+Migrating to DropMembersRoleId (20090503121510)
+Migrating to FixMessagesStickyNull (20090614091200)
+Migrating to PopulateUsersType (20090704172350)
+Migrating to CreateGroupsUsers (20090704172355)
+Migrating to AddMemberRolesInheritedFrom (20090704172358)
+Migrating to FixUsersCustomValues (20091010093521)
+Migrating to AddMissingIndexesToWorkflows (20091017212227)
+Migrating to AddMissingIndexesToCustomFieldsProjects (20091017212457)
+Migrating to AddMissingIndexesToMessages (20091017212644)
+Migrating to AddMissingIndexesToRepositories (20091017212938)
+Migrating to AddMissingIndexesToComments (20091017213027)
+Migrating to AddMissingIndexesToEnumerations (20091017213113)
+Migrating to AddMissingIndexesToWikiPages (20091017213151)
+Migrating to AddMissingIndexesToWatchers (20091017213228)
+Migrating to AddMissingIndexesToAuthSources (20091017213257)
+Migrating to AddMissingIndexesToDocuments (20091017213332)
+Migrating to AddMissingIndexesToTokens (20091017213444)
+Migrating to AddMissingIndexesToChangesets (20091017213536)
+Migrating to AddMissingIndexesToIssueCategories (20091017213642)
+Migrating to AddMissingIndexesToMemberRoles (20091017213716)
+Migrating to AddMissingIndexesToBoards (20091017213757)
+Migrating to AddMissingIndexesToUserPreferences (20091017213835)
+Migrating to AddMissingIndexesToIssues (20091017213910)
+Migrating to AddMissingIndexesToMembers (20091017214015)
+Migrating to AddMissingIndexesToCustomFields (20091017214107)
+Migrating to AddMissingIndexesToQueries (20091017214136)
+Migrating to AddMissingIndexesToTimeEntries (20091017214236)
+Migrating to AddMissingIndexesToNews (20091017214308)
+Migrating to AddMissingIndexesToUsers (20091017214336)
+Migrating to AddMissingIndexesToAttachments (20091017214406)
+Migrating to AddMissingIndexesToWikiContents (20091017214440)
+Migrating to AddMissingIndexesToCustomValues (20091017214519)
+Migrating to AddMissingIndexesToJournals (20091017214611)
+Migrating to AddMissingIndexesToIssueRelations (20091017214644)
+Migrating to AddMissingIndexesToWikiRedirects (20091017214720)
+Migrating to AddMissingIndexesToCustomFieldsTrackers (20091017214750)
+Migrating to AddActivityIndexes (20091025163651)
+Migrating to AddVersionsStatus (20091108092559)
+Migrating to AddViewIssuesPermission (20091114105931)
+Migrating to AddDefaultDoneRatioToIssueStatus (20091123212029)
+Migrating to AddVersionsSharing (20091205124427)
+Migrating to AddLftAndRgtIndexesToProjects (20091220183509)
+Migrating to AddIndexToSettingsName (20091220183727)
+Migrating to AddIndexesToIssueStatus (20091220184736)
+Migrating to RemoveEnumerationsOpt (20091225164732)
+Migrating to ChangeWikiContentsTextLimit (20091227112908)
+Migrating to ChangeUsersMailNotificationToString (20100129193402)
+Migrating to UpdateMailNotificationValues (20100129193813)
+Migrating to AddIndexOnChangesetsScmid (20100221100219)
+Migrating to AddIssuesNestedSetsColumns (20100313132032)
+Migrating to AddIndexOnIssuesNestedSet (20100313171051)
+Migrating to ChangeChangesPathLengthLimit (20100705164950)
+Migrating to EnableCalendarAndGanttModulesWhereAppropriate (20100819172912)
+Migrating to AddUniqueIndexOnMembers (20101104182107)
+Migrating to AddCustomFieldsVisible (20101107130441)
+Migrating to ChangeProjectsNameLimit (20101114115114)
+Migrating to ChangeProjectsIdentifierLimit (20101114115359)
+Migrating to AddWorkflowsAssigneeAndAuthor (20110220160626)
+Migrating to AddUsersSalt (20110223180944)
+Migrating to SaltUserPasswords (20110223180953)
+Migrating to AddRepositoriesPathEncoding (20110224000000)
+Migrating to ChangeRepositoriesPasswordLimit (20110226120112)
+Migrating to ChangeAuthSourcesAccountPasswordLimit (20110226120132)
+Migrating to ChangeJournalDetailsValuesToText (20110227125750)
+Migrating to AddRepositoriesLogEncoding (20110228000000)
+Migrating to CopyRepositoriesLogEncoding (20110228000100)
+Migrating to AddIndexToUsersType (20110401192910)
+Migrating to AddRolesIssuesVisibility (20110408103312)
+Migrating to AddIssuesIsPrivate (20110412065600)
+Migrating to AddRepositoriesExtraInfo (20110511000000)
+Migrating to CreateChangesetParents (20110902000000)
+Migrating to AddUniqueIndexToIssueRelations (20111201201315)
+Migrating to AddRepositoriesIdentifier (20120115143024)
+Migrating to AddRepositoriesIsDefault (20120115143100)
+Migrating to SetDefaultRepositories (20120115143126)
+Migrating to AddCustomFieldsMultiple (20120127174243)
+Migrating to ChangeUsersLoginLimit (20120205111326)
+Migrating to ChangeAttachmentsContainerDefaults (20120223110929)
+Migrating to AddAuthSourcesFilter (20120301153455)
+Migrating to ChangeRepositoriesToFullSti (20120422150750)
+Migrating to AddTrackersFieldsBits (20120705074331)
+Migrating to AddAuthSourcesTimeout (20120707064544)
+Migrating to AddWorkflowsType (20120714122000)
+Migrating to UpdateWorkflowsToSti (20120714122100)
+Migrating to AddWorkflowsRuleFields (20120714122200)
+Migrating to AddBoardsParentId (20120731164049)
+Migrating to AddJournalsPrivateNotes (20120930112914)
+Migrating to AddEnumerationsPositionName (20121026002032)
+Migrating to PopulateEnumerationsPositionName (20121026003537)
+Migrating to AddQueriesType (20121209123234)
+Migrating to UpdateQueriesToSti (20121209123358)
+Migrating to AddAttachmentsDiskDirectory (20121213084931)
+Migrating to SplitDocumentsPermissions (20130110122628)
+Migrating to AddUniqueIndexOnTokensValue (20130201184705)
+Migrating to AddProjectsInheritMembers (20130202090625)
+Migrating to AddUniqueIndexOnCustomFieldsTrackers (20130207175206)
+Migrating to AddUniqueIndexOnCustomFieldsProjects (20130207181455)
+Migrating to ChangeUsersLastnameLengthTo255 (20130215073721)
+Migrating to AddIssuesClosedOn (20130215111127)
+Migrating to PopulateIssuesClosedOn (20130215111141)
+Migrating to RemoveIssuesDefaultFkValues (20130217094251)
+Migrating to CreateQueriesRoles (20130602092539)
+Migrating to AddQueriesVisibility (20130710182539)
+Migrating to CreateCustomFieldsRoles (20130713104233)
+Migrating to AddQueriesOptions (20130713111657)
+Migrating to AddUsersMustChangePasswd (20130729070143)
+Migrating to RemoveEolsFromAttachmentsFilename (20130911193200)
+Migrating to SupportForMultipleCommitKeywords (20131004113137)
+Migrating to AddRepositoriesCreatedOn (20131005100610)
+Migrating to AddCustomFieldsFormatStore (20131124175346)
+Migrating to AddCustomFieldsDescription (20131210180802)
+Migrating to RemoveCustomFieldsMinMaxLengthDefaultValues (20131214094309)
+Migrating to StoreRelationTypeInJournalDetails (20131215104612)
+Migrating to DeleteOrphanTimeEntriesCustomValues (20131218183023)
+Migrating to ChangeChangesetsCommentsLimit (20140228130325)
+Migrating to AddPasswordChangedAtToUser (20140903143914)
+Migrating to InsertBuiltinGroups (20140920094058)
+Migrating to AddTrackersDefaultStatusId (20141029181752)
+Migrating to RemoveIssueStatusesIsDefault (20141029181824)
+Migrating to AddRolesUsersVisibility (20141109112308)
+Migrating to AddWikiRedirectsRedirectsToWikiId (20141122124142)
+Migrating to CreateEmailAddresses (20150113194759)
+Migrating to PopulateEmailAddresses (20150113211532)
+Migrating to RemoveUsersMail (20150113213922)
+Migrating to AddEmailAddressesUserIdIndex (20150113213955)
+Migrating to ReplaceMoveIssuesPermission (20150208105930)
+Migrating to ChangeDocumentsTitleLimit (20150510083747)
+Migrating to ClearEstimatedHoursOnParentIssues (20150525103953)
+Migrating to AddRolesTimeEntriesVisibility (20150526183158)
+Migrating to AddRolesAllRolesManaged (20150528084820)
+Migrating to CreateRolesManagedRoles (20150528092912)
+Migrating to AddUniqueIndexOnRolesManagedRoles (20150528093249)
+Migrating to InsertAllowedStatusesForNewIssues (20150725112753)
+Migrating to CreateImports (20150730122707)
+Migrating to CreateImportItems (20150730122735)
+Migrating to ChangeTimeEntriesCommentsLimitTo1024 (20150921204850)
+Migrating to ChangeWikiContentsCommentsLimitTo1024 (20150921210243)
+Migrating to ChangeAttachmentsFilesizeLimitTo8 (20151020182334)
+Migrating to FixCommaInUserFormatSettingValue (20151020182731)
+Migrating to ChangeIssueCategoriesNameLimitTo60 (20151021184614)
+Migrating to ChangeAuthSourcesFilterToText (20151021185456)
+Migrating to ChangeUserPreferencesHideMailDefaultToTrue (20151021190616)
+Migrating to AddTokensUpdatedOn (20151024082034)
+Migrating to CreateCustomFieldEnumerations (20151025072118)
+Migrating to AddProjectsDefaultVersionId (20151031095005)
+Migrating to ForcePasswordResetDuringSetup (20160404080304)
+Migrating to RemovePositionDefaults (20160416072926)
+Migrating to AddRolesSettings (20160529063352)
+Migrating to AddTrackerIdIndexToWorkflows (20161001122012)
+Migrating to AddIndexOnMemberRolesInheritedFrom (20161002133421)
+Migrating to ChangeIssuesDescriptionLimit (20161010081301)
+Migrating to ChangeJournalDetailsValueLimit (20161010081528)
+Migrating to ChangeJournalsNotesLimit (20161010081600)
+Migrating to AddIndexOnChangesetsIssuesIssueId (20161126094932)
+Migrating to AddIndexOnIssuesParentId (20161220091118)
+Migrating to AddIndexOnDiskFilenameToAttachments (20170207050700)
+Migrating to ChangeAttachmentsDigestLimitTo64 (20170302015225)
+Migrating to AddProjectDefaultAssignedToId (20170309214320)
+Migrating to ChangeRepositoriesExtraInfoLimit (20170320051650)
+Migrating to AddViewNewsToAllExistingRoles (20170418090031)
+Migrating to AddViewMessagesToAllExistingRoles (20170419144536)
+Migrating to RenameCommentsToContent (20170723112801)
+Migrating to AddVerifyPeerToAuthSources (20180913072918)
+Migrating to ChangeSqliteBooleansTo0And1 (20180923082945)
+Migrating to ChangeSqliteBooleansDefault (20180923091603)
+Creating scope :system. Overwriting existing method Enumeration.system.
+Creating scope :sorted. Overwriting existing method Group.sorted.
+Creating scope :sorted. Overwriting existing method User.sorted.
+Started HEAD "/" for 127.0.0.1 at 2019-09-19 00:09:06 +0900
+Processing by WelcomeController#index as HTML
+  Current user: anonymous
+  Rendering welcome/index.html.erb within layouts/base
+  Rendered welcome/index.html.erb within layouts/base (40.4ms)
+Completed 200 OK in 1727ms (Views: 359.3ms | ActiveRecord: 730.4ms)
+Started GET "/" for 172.23.0.1 at 2019-09-19 00:09:31 +0900
+Processing by WelcomeController#index as HTML
+  Current user: anonymous
+  Rendering welcome/index.html.erb within layouts/base
+  Rendered welcome/index.html.erb within layouts/base (193.2ms)
+Completed 200 OK in 233ms (Views: 212.6ms | ActiveRecord: 8.1ms)
+Creating scope :system. Overwriting existing method Enumeration.system.
+Creating scope :sorted. Overwriting existing method Group.sorted.
+Creating scope :sorted. Overwriting existing method User.sorted.
+Started HEAD "/" for 127.0.0.1 at 2019-09-19 19:04:05 +0900
+Processing by WelcomeController#index as HTML
+  Current user: anonymous
+  Rendering welcome/index.html.erb within layouts/base
+  Rendered welcome/index.html.erb within layouts/base (62.2ms)
+Completed 200 OK in 572ms (Views: 96.3ms | ActiveRecord: 137.3ms)
+Creating scope :system. Overwriting existing method Enumeration.system.
+Started GET "/" for 172.23.0.1 at 2019-09-23 23:47:30 +0900
+Processing by WelcomeController#index as HTML
+  Current user: anonymous
+  Rendering welcome/index.html.erb within layouts/base
+  Rendered welcome/index.html.erb within layouts/base (124.3ms)
+Completed 200 OK in 446ms (Views: 182.8ms | ActiveRecord: 47.5ms)
+Started GET "/account/register" for 172.23.0.1 at 2019-09-23 23:47:36 +0900
+Processing by AccountController#register as HTML
+  Current user: anonymous
+  Rendering account/register.html.erb within layouts/base
+  Rendered account/register.html.erb within layouts/base (1679.4ms)
+Completed 200 OK in 1722ms (Views: 1626.0ms | ActiveRecord: 67.1ms)
+Started POST "/account/register" for 172.23.0.1 at 2019-09-23 23:47:59 +0900
+Processing by AccountController#register as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KHkSX6mRkBaONKrGyE6pp+cznCPh0YYAPU7C6m2Q9Es4f4yvnXmXATDC28/r89rbn/CRpp1Yc9zCZ98NznxsEw==", "user"=>{"login"=>"test1", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "firstname"=>"test", "lastname"=>"1", "mail"=>"taro.furuya@gmail.com", "language"=>"ja"}, "pref"=>{"hide_mail"=>"1"}, "commit"=>"送信"}
+  Current user: anonymous
+[ActiveJob] Enqueued ActionMailer::DeliveryJob (Job ID: 06d2bacf-df98-43cc-9e4a-6da34395467b) to Async(mailers) with arguments: "Mailer", "account_activation_request", "deliver_now", #<GlobalID:0x00007f87814ae510 @uri=#<URI::GID gid://redmine-app/User/1>>, #<GlobalID:0x00007f87814ad610 @uri=#<URI::GID gid://redmine-app/User/5>>
+Redirected to http://localhost/login
+Completed 302 Found in 137ms (ActiveRecord: 59.6ms)
+Started GET "/login" for 172.23.0.1 at 2019-09-23 23:47:59 +0900
+Processing by AccountController#login as HTML
+  Current user: anonymous
+[ActiveJob] [ActionMailer::DeliveryJob] [06d2bacf-df98-43cc-9e4a-6da34395467b] Performing ActionMailer::DeliveryJob (Job ID: 06d2bacf-df98-43cc-9e4a-6da34395467b) from Async(mailers) with arguments: "Mailer", "account_activation_request", "deliver_now", #<GlobalID:0x00007f87815295a8 @uri=#<URI::GID gid://redmine-app/User/1>>, #<GlobalID:0x00007f87815289c8 @uri=#<URI::GID gid://redmine-app/User/5>>
+  Rendering account/login.html.erb within layouts/base
+  Rendered account/login.html.erb within layouts/base (10.4ms)
+Completed 200 OK in 60ms (Views: 36.0ms | ActiveRecord: 9.5ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [06d2bacf-df98-43cc-9e4a-6da34395467b]   Rendering mailer/account_activation_request.text.erb within layouts/mailer
+[ActiveJob] [ActionMailer::DeliveryJob] [06d2bacf-df98-43cc-9e4a-6da34395467b]   Rendered mailer/account_activation_request.text.erb within layouts/mailer (5.2ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [06d2bacf-df98-43cc-9e4a-6da34395467b]   Rendering mailer/account_activation_request.html.erb within layouts/mailer
+[ActiveJob] [ActionMailer::DeliveryJob] [06d2bacf-df98-43cc-9e4a-6da34395467b]   Rendered mailer/account_activation_request.html.erb within layouts/mailer (0.8ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [06d2bacf-df98-43cc-9e4a-6da34395467b] Performed ActionMailer::DeliveryJob (Job ID: 06d2bacf-df98-43cc-9e4a-6da34395467b) from Async(mailers) in 337.63ms
+Started POST "/login" for 172.23.0.1 at 2019-09-23 23:48:03 +0900
+Processing by AccountController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"l42LK7Cs9STWfljDaAWGbwYZcDIRfQXgTTOBJ2vopjyHixXbhETyM2iIKcpLuPUTftp9t2308DyyGpzAyAQ+ZA==", "back_url"=>"http://localhost/account/register", "username"=>"test1", "password"=>"[FILTERED]", "login"=>"ログイン"}
+  Current user: anonymous
+Redirected to http://localhost/login
+Completed 302 Found in 16ms (ActiveRecord: 3.3ms)
+Started GET "/login" for 172.23.0.1 at 2019-09-23 23:48:03 +0900
+Processing by AccountController#login as HTML
+  Current user: anonymous
+  Rendering account/login.html.erb within layouts/base
+  Rendered account/login.html.erb within layouts/base (0.8ms)
+Completed 200 OK in 14ms (Views: 7.2ms | ActiveRecord: 1.8ms)
+Started GET "/login" for 172.23.0.1 at 2019-09-23 23:48:09 +0900
+Processing by AccountController#login as HTML
+  Current user: anonymous
+  Rendering account/login.html.erb within layouts/base
+  Rendered account/login.html.erb within layouts/base (1.0ms)
+Completed 200 OK in 16ms (Views: 9.0ms | ActiveRecord: 2.3ms)
+Started POST "/login" for 172.23.0.1 at 2019-09-23 23:48:16 +0900
+Processing by AccountController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ttcf9DqZq/sodaH7/IVoGaLxATYK8/Dny9/j6V7bk8mm0YEEDnGs7JaD0PLfOBtl2jIMs3Z6BTs09v4O/TcLkQ==", "back_url"=>"http://localhost/login", "username"=>"redmine", "password"=>"[FILTERED]", "login"=>"ログイン"}
+  Current user: anonymous
+Failed login for 'redmine' from 172.23.0.1 at 2019-09-23 14:48:16 UTC
+  Rendering account/login.html.erb within layouts/base
+  Rendered account/login.html.erb within layouts/base (1.3ms)
+Completed 200 OK in 41ms (Views: 7.0ms | ActiveRecord: 22.1ms)
+Started POST "/login" for 172.23.0.1 at 2019-09-23 23:52:07 +0900
+Processing by AccountController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pyY5BkmF16ylEVy2sCeQEhip3WtuA5tPj4v7tQKSrFi3IKf2fW3QuxvnLb+TmuNuYGrQ7hKKbpNwouZSoX40AA==", "back_url"=>"http://localhost/login", "username"=>"admin", "password"=>"[FILTERED]", "login"=>"ログイン"}
+  Current user: anonymous
+Successful authentication for 'admin' from 172.23.0.1 at 2019-09-23 14:52:07 UTC
+Redirected to http://localhost/my/page
+Completed 302 Found in 163ms (ActiveRecord: 101.9ms)
+Started GET "/my/page" for 172.23.0.1 at 2019-09-23 23:52:07 +0900
+Processing by MyController#page as HTML
+  Current user: admin (id=1)
+Redirected to http://localhost/my/password
+Filter chain halted as :check_password_change rendered or redirected
+Completed 302 Found in 28ms (ActiveRecord: 7.8ms)
+Started GET "/my/password" for 172.23.0.1 at 2019-09-23 23:52:07 +0900
+Processing by MyController#password as HTML
+  Current user: admin (id=1)
+  Rendering my/password.html.erb within layouts/base
+  Rendered my/password.html.erb within layouts/base (4.7ms)
+Completed 200 OK in 108ms (Views: 60.8ms | ActiveRecord: 32.1ms)
+Started POST "/my/password" for 172.23.0.1 at 2019-09-23 23:52:20 +0900
+Processing by MyController#password as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tagdUFOi3Y0RGGlVipAeG5SrrsdpnZTACQ71jRxo1VnJA87ECW6wqa5YC6z+ocskg8Trfp1TBwdpTgschZBf2A==", "password"=>"[FILTERED]", "new_password"=>"[FILTERED]", "new_password_confirmation"=>"[FILTERED]", "commit"=>"適用"}
+  Current user: admin (id=1)
+Redirected to http://localhost/my/account
+Completed 302 Found in 89ms (ActiveRecord: 57.2ms)
+Started GET "/my/account" for 172.23.0.1 at 2019-09-23 23:52:20 +0900
+Processing by MyController#account as HTML
+  Current user: admin (id=1)
+  Rendering my/account.html.erb within layouts/base
+  Rendered users/_mail_notifications.html.erb (23.5ms)
+  Rendered users/_preferences.html.erb (416.6ms)
+  Rendered my/_sidebar.html.erb (20.3ms)
+  Rendered my/account.html.erb within layouts/base (513.1ms)
+Completed 200 OK in 548ms (Views: 508.1ms | ActiveRecord: 22.6ms)
+Started POST "/my/account" for 172.23.0.1 at 2019-09-23 23:52:55 +0900
+Processing by MyController#account as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LiP57TgT+LBY/eRMfL/w4UYR96Y4NxHC2Xhh0KWf5fZSiCp5Yt+VlOe9hrUIjiXeUX6yH8z5ggW5OJ9BPGdvdw==", "user"=>{"firstname"=>"Redmine", "lastname"=>"Admin", "mail"=>"admin@example.net", "language"=>"", "mail_notification"=>"all", "notified_project_ids"=>[""]}, "commit"=>"保存", "pref"=>{"no_self_notified"=>"1", "hide_mail"=>"1", "time_zone"=>"", "comments_sorting"=>"asc", "warn_on_leaving_unsaved"=>"1", "textarea_font"=>""}}
+  Current user: admin (id=1)
+Redirected to http://localhost/my/account
+Completed 302 Found in 76ms (ActiveRecord: 35.7ms)
+Started GET "/my/account" for 172.23.0.1 at 2019-09-23 23:52:55 +0900
+Processing by MyController#account as HTML
+  Current user: admin (id=1)
+  Rendering my/account.html.erb within layouts/base
+  Rendered users/_mail_notifications.html.erb (7.9ms)
+  Rendered users/_preferences.html.erb (21.4ms)
+  Rendered my/_sidebar.html.erb (6.3ms)
+  Rendered my/account.html.erb within layouts/base (49.9ms)
+Completed 200 OK in 72ms (Views: 48.5ms | ActiveRecord: 14.4ms)
+Started POST "/logout" for 172.23.0.1 at 2019-09-23 23:53:00 +0900
+Processing by AccountController#logout as HTML
+  Parameters: {"authenticity_token"=>"RlU0YnR2Cz9PZ5J/ih4srlqSaTS+ZHOPSlcRF3u6KwE6/uf2LrpmG/An8Ib+L/mRTf0sjUqq4EgqF++G4kKhgA=="}
+  Current user: admin (id=1)
+Redirected to http://localhost/
+Completed 302 Found in 44ms (ActiveRecord: 27.8ms)
+Started GET "/" for 172.23.0.1 at 2019-09-23 23:53:00 +0900
+Processing by WelcomeController#index as HTML
+  Current user: anonymous
+  Rendering welcome/index.html.erb within layouts/base
+  Rendered welcome/index.html.erb within layouts/base (0.8ms)
+Completed 200 OK in 22ms (Views: 6.4ms | ActiveRecord: 7.5ms)
+Started GET "/login" for 172.23.0.1 at 2019-09-23 23:53:01 +0900
+Processing by AccountController#login as HTML
+  Current user: anonymous
+  Rendering account/login.html.erb within layouts/base
+  Rendered account/login.html.erb within layouts/base (0.7ms)
+Completed 200 OK in 32ms (Views: 8.0ms | ActiveRecord: 2.3ms)
+Started POST "/login" for 172.23.0.1 at 2019-09-23 23:53:07 +0900
+Processing by AccountController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dJc3QTQQ3aOTquL38NtbruGqDVELi/CMJ1NeYekY3eosmvcso1xGnMe1F7TbY/eWDw2vIfs4sqwKkcmDHIy7Bw==", "back_url"=>"http://localhost/", "username"=>"admin", "password"=>"[FILTERED]", "login"=>"ログイン"}
+  Current user: anonymous
+Successful authentication for 'admin' from 172.23.0.1 at 2019-09-23 14:53:07 UTC
+Redirected to http://localhost/
+Completed 302 Found in 46ms (ActiveRecord: 28.0ms)
+Started GET "/" for 172.23.0.1 at 2019-09-23 23:53:07 +0900
+Processing by WelcomeController#index as HTML
+  Current user: admin (id=1)
+  Rendering welcome/index.html.erb within layouts/base
+  Rendered welcome/index.html.erb within layouts/base (22.3ms)
+Completed 200 OK in 51ms (Views: 17.5ms | ActiveRecord: 27.5ms)
+Started GET "/projects?jump=welcome" for 172.23.0.1 at 2019-09-23 23:53:17 +0900
+Processing by ProjectsController#index as HTML
+  Parameters: {"jump"=>"welcome"}
+  Current user: admin (id=1)
+  Rendering projects/index.html.erb within layouts/base
+  Rendered projects/index.html.erb within layouts/base (17.6ms)
+Completed 200 OK in 73ms (Views: 34.6ms | ActiveRecord: 15.8ms)
+Started GET "/projects/new" for 172.23.0.1 at 2019-09-23 23:53:21 +0900
+Processing by ProjectsController#new as HTML
+  Current user: admin (id=1)
+  Rendering projects/new.html.erb within layouts/base
+  Rendered projects/_form.html.erb (47.6ms)
+  Rendered projects/new.html.erb within layouts/base (54.6ms)
+Completed 200 OK in 370ms (Views: 67.8ms | ActiveRecord: 202.4ms)
+Started POST "/projects" for 172.23.0.1 at 2019-09-23 23:53:37 +0900
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Er+bPXR9Hxq13Pixga6ZQldeOo1KJ/+wDaLwB0dcLgTag7/dOdQgvdah/Qc2GEabZVy8P0yj2pXB9BFq0N4ZVA==", "project"=>{"name"=>"quarter", "description"=>"", "identifier"=>"quarter", "homepage"=>"", "is_public"=>"1", "inherit_members"=>"0", "enabled_module_names"=>["issue_tracking", "time_tracking", "news", "documents", "files", "wiki", "repository", "boards", "calendar", "gantt", ""]}, "commit"=>"作成"}
+  Current user: admin (id=1)
+Redirected to http://localhost/projects/quarter/settings
+Completed 302 Found in 378ms (ActiveRecord: 248.2ms)
+Started GET "/projects/quarter/settings" for 172.23.0.1 at 2019-09-23 23:53:37 +0900
+Processing by ProjectsController#settings as HTML
+  Parameters: {"id"=>"quarter"}
+  Current user: admin (id=1)
+  Rendering projects/settings.html.erb within layouts/base
+  Rendered projects/_form.html.erb (9.8ms)
+  Rendered projects/_edit.html.erb (12.8ms)
+  Rendered projects/settings/_members.html.erb (20.8ms)
+  Rendered projects/settings/_issues.html.erb (35.0ms)
+  Rendered projects/settings/_versions.html.erb (8.9ms)
+  Rendered projects/settings/_issue_categories.html.erb (8.9ms)
+  Rendered projects/settings/_repositories.html.erb (12.6ms)
+  Rendered projects/settings/_boards.html.erb (18.8ms)
+  Rendered projects/settings/_activities.html.erb (106.5ms)
+  Rendered common/_tabs.html.erb (265.7ms)
+  Rendered projects/settings.html.erb within layouts/base (280.4ms)
+Completed 200 OK in 432ms (Views: 209.4ms | ActiveRecord: 181.7ms)
+Started GET "/projects/quarter" for 172.23.0.1 at 2019-09-23 23:53:40 +0900
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"quarter"}
+  Current user: admin (id=1)
+  Rendering projects/show.html.erb within layouts/base
+  Rendered projects/_members_box.html.erb (1.2ms)
+  Rendered projects/show.html.erb within layouts/base (25.4ms)
+Completed 200 OK in 144ms (Views: 53.1ms | ActiveRecord: 51.8ms)
+Started GET "/my/page" for 172.23.0.1 at 2019-09-23 23:53:42 +0900
+Processing by MyController#page as HTML
+  Current user: admin (id=1)
+  Rendering my/page.html.erb within layouts/base
+  Rendered queries/_columns.html.erb (21.1ms)
+  Rendered my/blocks/_issues.erb (100.8ms)
+  Rendered queries/_columns.html.erb (2.4ms)
+  Rendered my/blocks/_issues.erb (11.8ms)
+  Rendered my/page.html.erb within layouts/base (745.7ms)
+Completed 200 OK in 779ms (Views: 609.5ms | ActiveRecord: 161.0ms)
+Started GET "/projects" for 172.23.0.1 at 2019-09-23 23:53:46 +0900
+Processing by ProjectsController#index as HTML
+  Current user: admin (id=1)
+  Rendering projects/index.html.erb within layouts/base
+  Rendered projects/index.html.erb within layouts/base (8.9ms)
+Completed 200 OK in 85ms (Views: 47.9ms | ActiveRecord: 23.0ms)
+Started GET "/projects/quarter" for 172.23.0.1 at 2019-09-23 23:53:47 +0900
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"quarter"}
+  Current user: admin (id=1)
+  Rendering projects/show.html.erb within layouts/base
+  Rendered projects/_members_box.html.erb (0.1ms)
+  Rendered projects/show.html.erb within layouts/base (35.3ms)
+Completed 200 OK in 280ms (Views: 187.9ms | ActiveRecord: 34.5ms)
+Started GET "/my/page" for 172.23.0.1 at 2019-09-23 23:53:49 +0900
+Processing by MyController#page as HTML
+  Current user: admin (id=1)
+  Rendering my/page.html.erb within layouts/base
+  Rendered queries/_columns.html.erb (1.7ms)
+  Rendered my/blocks/_issues.erb (9.4ms)
+  Rendered queries/_columns.html.erb (1.6ms)
+  Rendered my/blocks/_issues.erb (7.3ms)
+  Rendered my/page.html.erb within layouts/base (65.3ms)
+Completed 200 OK in 95ms (Views: 59.1ms | ActiveRecord: 28.2ms)
+Started GET "/" for 172.23.0.1 at 2019-09-23 23:53:51 +0900
+Processing by WelcomeController#index as HTML
+  Current user: admin (id=1)
+  Rendering welcome/index.html.erb within layouts/base
+  Rendered welcome/index.html.erb within layouts/base (3.1ms)
+Completed 200 OK in 38ms (Views: 12.3ms | ActiveRecord: 15.0ms)
+Started GET "/" for 172.23.0.1 at 2019-09-23 23:53:57 +0900
+Processing by WelcomeController#index as HTML
+  Current user: admin (id=1)
+  Rendering welcome/index.html.erb within layouts/base
+  Rendered welcome/index.html.erb within layouts/base (2.7ms)
+Completed 200 OK in 44ms (Views: 9.9ms | ActiveRecord: 26.0ms)
+Started GET "/" for 172.23.0.1 at 2019-09-23 23:53:58 +0900
+Processing by WelcomeController#index as HTML
+  Current user: admin (id=1)
+  Rendering welcome/index.html.erb within layouts/base
+  Rendered welcome/index.html.erb within layouts/base (3.1ms)
+Completed 200 OK in 39ms (Views: 9.8ms | ActiveRecord: 16.3ms)
+Started GET "/projects?jump=welcome" for 172.23.0.1 at 2019-09-23 23:54:01 +0900
+Processing by ProjectsController#index as HTML
+  Parameters: {"jump"=>"welcome"}
+  Current user: admin (id=1)
+  Rendering projects/index.html.erb within layouts/base
+  Rendered projects/index.html.erb within layouts/base (6.6ms)
+Completed 200 OK in 46ms (Views: 14.7ms | ActiveRecord: 22.5ms)
+Started GET "/projects/quarter" for 172.23.0.1 at 2019-09-23 23:54:03 +0900
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"quarter"}
+  Current user: admin (id=1)
+  Rendering projects/show.html.erb within layouts/base
+  Rendered projects/_members_box.html.erb (0.1ms)
+  Rendered projects/show.html.erb within layouts/base (9.9ms)
+Completed 200 OK in 80ms (Views: 30.4ms | ActiveRecord: 32.0ms)
+Started GET "/projects/quarter/issues" for 172.23.0.1 at 2019-09-23 23:54:09 +0900
+Processing by IssuesController#index as HTML
+  Parameters: {"project_id"=>"quarter"}
+  Current user: admin (id=1)
+  Rendering issues/index.html.erb within layouts/base
+  Rendered queries/_filters.html.erb (20.2ms)
+  Rendered queries/_columns.html.erb (1.6ms)
+  Rendered queries/_query_form.html.erb (31.1ms)
+  Rendered issues/_sidebar.html.erb (8.6ms)
+  Rendered issues/index.html.erb within layouts/base (63.4ms)
+Completed 200 OK in 166ms (Views: 78.8ms | ActiveRecord: 53.5ms)
+Started GET "/projects/quarter/issues/new" for 172.23.0.1 at 2019-09-23 23:54:14 +0900
+Processing by IssuesController#new as HTML
+  Parameters: {"project_id"=>"quarter"}
+  Current user: admin (id=1)
+  Rendering issues/new.html.erb within layouts/base
+  Rendered issues/_form_custom_fields.html.erb (67.8ms)
+  Rendered issues/_attributes.html.erb (100.9ms)
+  Rendered issues/_form.html.erb (121.0ms)
+  Rendered attachments/_form.html.erb (12.8ms)
+  Rendered issues/_watchers_form.html.erb (7.2ms)
+  Rendered issues/new.html.erb within layouts/base (154.1ms)
+Completed 200 OK in 403ms (Views: 99.6ms | ActiveRecord: 210.1ms)
+Started POST "/projects/quarter/issues/new.js" for 172.23.0.1 at 2019-09-23 23:54:18 +0900
+Processing by IssuesController#new as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KaZRmSRGUv1Oq1up3YPT3cue15qfLDavusKCrBYRwUfhmnV5ae9tWi3WXh9qNQwE+ZxRKJmoE4p2lGPBgZP2Fw==", "form_update_triggered_by"=>"issue_tracker_id", "issue"=>{"is_private"=>"0", "tracker_id"=>"2", "subject"=>"", "description"=>"", "status_id"=>"1", "priority_id"=>"2", "assigned_to_id"=>"", "parent_issue_id"=>"", "start_date"=>"2019-09-23", "due_date"=>"", "estimated_hours"=>"", "done_ratio"=>"0", "watcher_user_ids"=>[""]}, "was_default_status"=>"1", "project_id"=>"quarter"}
+  Current user: admin (id=1)
+  Rendering issues/new.js.erb
+  Rendered issues/_form_custom_fields.html.erb (4.8ms)
+  Rendered issues/_attributes.html.erb (24.0ms)
+  Rendered issues/_form.html.erb (36.4ms)
+  Rendered issues/new.js.erb (38.7ms)
+Completed 200 OK in 130ms (Views: 40.6ms | ActiveRecord: 42.4ms)
+Started POST "/projects/quarter/issues" for 172.23.0.1 at 2019-09-23 23:54:35 +0900
+Processing by IssuesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KaZRmSRGUv1Oq1up3YPT3cue15qfLDavusKCrBYRwUfhmnV5ae9tWi3WXh9qNQwE+ZxRKJmoE4p2lGPBgZP2Fw==", "form_update_triggered_by"=>"", "issue"=>{"is_private"=>"0", "tracker_id"=>"2", "subject"=>"impl 1", "description"=>"", "status_id"=>"1", "priority_id"=>"2", "assigned_to_id"=>"", "parent_issue_id"=>"", "start_date"=>"2019-09-23", "due_date"=>"", "estimated_hours"=>"", "done_ratio"=>"0", "watcher_user_ids"=>[""]}, "was_default_status"=>"1", "continue"=>"連続作成", "project_id"=>"quarter"}
+  Current user: admin (id=1)
+[ActiveJob] Enqueued ActionMailer::DeliveryJob (Job ID: e811b714-662c-4f64-8332-2e701b1a1759) to Async(mailers) with arguments: "Mailer", "issue_add", "deliver_now", #<GlobalID:0x00007f8781d91178 @uri=#<URI::GID gid://redmine-app/User/1>>, #<GlobalID:0x00007f8781d90a20 @uri=#<URI::GID gid://redmine-app/Issue/1>>
+Redirected to http://localhost/projects/quarter/issues/new?issue%5Btracker_id%5D=2
+Completed 302 Found in 167ms (ActiveRecord: 94.5ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [e811b714-662c-4f64-8332-2e701b1a1759] Performing ActionMailer::DeliveryJob (Job ID: e811b714-662c-4f64-8332-2e701b1a1759) from Async(mailers) with arguments: "Mailer", "issue_add", "deliver_now", #<GlobalID:0x00007f87700722c8 @uri=#<URI::GID gid://redmine-app/User/1>>, #<GlobalID:0x00007f8770071b48 @uri=#<URI::GID gid://redmine-app/Issue/1>>
+Started GET "/projects/quarter/issues/new?issue%5Btracker_id%5D=2" for 172.23.0.1 at 2019-09-23 23:54:35 +0900
+Processing by IssuesController#new as HTML
+  Parameters: {"issue"=>{"tracker_id"=>"2"}, "project_id"=>"quarter"}
+  Current user: admin (id=1)
+[ActiveJob] [ActionMailer::DeliveryJob] [e811b714-662c-4f64-8332-2e701b1a1759]   Rendering mailer/issue_add.text.erb within layouts/mailer
+[ActiveJob] [ActionMailer::DeliveryJob] [e811b714-662c-4f64-8332-2e701b1a1759]   Rendered mailer/_issue.text.erb (39.4ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [e811b714-662c-4f64-8332-2e701b1a1759]   Rendered mailer/issue_add.text.erb within layouts/mailer (55.7ms)
+  Rendering issues/new.html.erb within layouts/base
+[ActiveJob] [ActionMailer::DeliveryJob] [e811b714-662c-4f64-8332-2e701b1a1759]   Rendering mailer/issue_add.html.erb within layouts/mailer
+[ActiveJob] [ActionMailer::DeliveryJob] [e811b714-662c-4f64-8332-2e701b1a1759]   Rendered mailer/_issue.html.erb (1.9ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [e811b714-662c-4f64-8332-2e701b1a1759]   Rendered mailer/issue_add.html.erb within layouts/mailer (10.1ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [e811b714-662c-4f64-8332-2e701b1a1759] Performed ActionMailer::DeliveryJob (Job ID: e811b714-662c-4f64-8332-2e701b1a1759) from Async(mailers) in 153.08ms
+  Rendered issues/_form_custom_fields.html.erb (4.3ms)
+  Rendered issues/_attributes.html.erb (61.2ms)
+  Rendered issues/_form.html.erb (79.7ms)
+  Rendered attachments/_form.html.erb (1.8ms)
+  Rendered issues/_watchers_form.html.erb (11.1ms)
+  Rendered issues/new.html.erb within layouts/base (97.1ms)
+Completed 200 OK in 216ms (Views: 75.8ms | ActiveRecord: 98.0ms)
+Started POST "/projects/quarter/issues" for 172.23.0.1 at 2019-09-23 23:54:44 +0900
+Processing by IssuesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9hxg0JlbiEgvkU60S5iiYh0fgezNYcVz/o+Sl1UheXA+IEQw1PK370zsSwL8Ln27Lx0HXsvl4FYy2XP6wqNOIA==", "form_update_triggered_by"=>"", "issue"=>{"is_private"=>"0", "tracker_id"=>"2", "subject"=>"impl 2", "description"=>"", "status_id"=>"1", "priority_id"=>"2", "assigned_to_id"=>"", "parent_issue_id"=>"", "start_date"=>"2019-09-23", "due_date"=>"", "estimated_hours"=>"", "done_ratio"=>"0", "watcher_user_ids"=>[""]}, "was_default_status"=>"1", "commit"=>"作成", "project_id"=>"quarter"}
+  Current user: admin (id=1)
+[ActiveJob] Enqueued ActionMailer::DeliveryJob (Job ID: 46e6211a-85ef-4afd-83b5-d8e87e202e1a) to Async(mailers) with arguments: "Mailer", "issue_add", "deliver_now", #<GlobalID:0x00007f87820a0670 @uri=#<URI::GID gid://redmine-app/User/1>>, #<GlobalID:0x00007f87820abed0 @uri=#<URI::GID gid://redmine-app/Issue/2>>
+Redirected to http://localhost/issues/2
+Completed 302 Found in 109ms (ActiveRecord: 42.1ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [46e6211a-85ef-4afd-83b5-d8e87e202e1a] Performing ActionMailer::DeliveryJob (Job ID: 46e6211a-85ef-4afd-83b5-d8e87e202e1a) from Async(mailers) with arguments: "Mailer", "issue_add", "deliver_now", #<GlobalID:0x00007f87701bc700 @uri=#<URI::GID gid://redmine-app/User/1>>, #<GlobalID:0x00007f87701c7f38 @uri=#<URI::GID gid://redmine-app/Issue/2>>
+Started GET "/issues/2" for 172.23.0.1 at 2019-09-23 23:54:44 +0900
+Processing by IssuesController#show as HTML
+  Parameters: {"id"=>"2"}
+[ActiveJob] [ActionMailer::DeliveryJob] [46e6211a-85ef-4afd-83b5-d8e87e202e1a]   Rendering mailer/issue_add.text.erb within layouts/mailer
+  Current user: admin (id=1)
+[ActiveJob] [ActionMailer::DeliveryJob] [46e6211a-85ef-4afd-83b5-d8e87e202e1a]   Rendered mailer/_issue.text.erb (14.5ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [46e6211a-85ef-4afd-83b5-d8e87e202e1a]   Rendered mailer/issue_add.text.erb within layouts/mailer (15.8ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [46e6211a-85ef-4afd-83b5-d8e87e202e1a]   Rendering mailer/issue_add.html.erb within layouts/mailer
+[ActiveJob] [ActionMailer::DeliveryJob] [46e6211a-85ef-4afd-83b5-d8e87e202e1a]   Rendered mailer/_issue.html.erb (0.9ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [46e6211a-85ef-4afd-83b5-d8e87e202e1a]   Rendered mailer/issue_add.html.erb within layouts/mailer (3.3ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [46e6211a-85ef-4afd-83b5-d8e87e202e1a] Performed ActionMailer::DeliveryJob (Job ID: 46e6211a-85ef-4afd-83b5-d8e87e202e1a) from Async(mailers) in 59.55ms
+  Rendering issues/show.html.erb within layouts/base
+  Rendered issues/_action_menu.html.erb (10.9ms)
+  Rendered issue_relations/_form.html.erb (6.4ms)
+  Rendered issues/_relations.html.erb (12.9ms)
+  Rendered issues/_action_menu.html.erb (3.1ms)
+  Rendered issues/_form_custom_fields.html.erb (0.1ms)
+  Rendered issues/_attributes.html.erb (23.9ms)
+  Rendered issues/_form.html.erb (42.1ms)
+  Rendered attachments/_form.html.erb (2.4ms)
+  Rendered issues/_edit.html.erb (111.4ms)
+  Rendered issues/_action_menu_edit.html.erb (119.2ms)
+  Rendered issues/_sidebar.html.erb (2.7ms)
+  Rendered watchers/_watchers.html.erb (6.4ms)
+  Rendered issues/show.html.erb within layouts/base (197.2ms)
+Completed 200 OK in 540ms (Views: 186.6ms | ActiveRecord: 275.9ms)
+Started GET "/projects/quarter/issues" for 172.23.0.1 at 2019-09-23 23:54:46 +0900
+Processing by IssuesController#index as HTML
+  Parameters: {"project_id"=>"quarter"}
+  Current user: admin (id=1)
+  Rendering issues/index.html.erb within layouts/base
+  Rendered queries/_filters.html.erb (10.5ms)
+  Rendered queries/_columns.html.erb (1.3ms)
+  Rendered queries/_query_form.html.erb (16.2ms)
+  Rendered issues/_list.html.erb (14.1ms)
+  Rendered issues/_sidebar.html.erb (4.3ms)
+  Rendered issues/index.html.erb within layouts/base (50.5ms)
+Completed 200 OK in 126ms (Views: 64.3ms | ActiveRecord: 33.1ms)
+Started POST "/logout" for 172.23.0.1 at 2019-09-23 23:55:31 +0900
+Processing by AccountController#logout as HTML
+  Parameters: {"authenticity_token"=>"EqM9Tq0Tl4gFFu7mw6c5YPG2zf4OOOW4p/T14qJfMRzanxmu4LqoL2Zr61B0Eea5w7RLTAi8wJ1rohSPNd0GTA=="}
+  Current user: admin (id=1)
+Redirected to http://localhost/
+Completed 302 Found in 33ms (ActiveRecord: 22.2ms)
+Started GET "/" for 172.23.0.1 at 2019-09-23 23:55:31 +0900
+Processing by WelcomeController#index as HTML
+  Current user: anonymous
+  Rendering welcome/index.html.erb within layouts/base
+  Rendered welcome/index.html.erb within layouts/base (0.7ms)
+Completed 200 OK in 19ms (Views: 6.4ms | ActiveRecord: 5.1ms)
+Started GET "/login" for 172.23.0.1 at 2019-09-23 23:55:32 +0900
+Processing by AccountController#login as HTML
+  Current user: anonymous
+  Rendering account/login.html.erb within layouts/base
+  Rendered account/login.html.erb within layouts/base (1.4ms)
+Completed 200 OK in 15ms (Views: 6.8ms | ActiveRecord: 1.7ms)
+Started GET "/login" for 172.23.0.1 at 2019-09-23 23:55:35 +0900
+Processing by AccountController#login as HTML
+  Current user: anonymous
+  Rendering account/login.html.erb within layouts/base
+  Rendered account/login.html.erb within layouts/base (1.2ms)
+Completed 200 OK in 17ms (Views: 9.4ms | ActiveRecord: 2.4ms)
+Started POST "/login" for 172.23.0.1 at 2019-09-23 23:55:36 +0900
+Processing by AccountController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EpWvmFgvfuAptFqukoIQTawW7PEE+OW7/lXwX9I/f6WxyXnVlYYBJMf2mt1jKlgUeqatHrkiaoGiQO9JKwHiAw==", "back_url"=>"http://localhost/login", "username"=>"admin", "password"=>"[FILTERED]", "login"=>"ログイン"}
+  Current user: anonymous
+Successful authentication for 'admin' from 172.23.0.1 at 2019-09-23 14:55:36 UTC
+Redirected to http://localhost/my/page
+Completed 302 Found in 53ms (ActiveRecord: 31.0ms)
+Started GET "/my/page" for 172.23.0.1 at 2019-09-23 23:55:36 +0900
+Processing by MyController#page as HTML
+  Current user: admin (id=1)
+  Rendering my/page.html.erb within layouts/base
+  Rendered queries/_columns.html.erb (1.6ms)
+  Rendered my/blocks/_issues.erb (8.6ms)
+  Rendered queries/_columns.html.erb (1.2ms)
+  Rendered issues/_list.html.erb (11.6ms)
+  Rendered my/blocks/_issues.erb (19.8ms)
+  Rendered my/page.html.erb within layouts/base (70.9ms)
+Completed 200 OK in 92ms (Views: 68.3ms | ActiveRecord: 18.4ms)
+Started GET "/my/account" for 172.23.0.1 at 2019-09-23 23:55:40 +0900
+Processing by MyController#account as HTML
+  Current user: admin (id=1)
+  Rendering my/account.html.erb within layouts/base
+  Rendered users/_mail_notifications.html.erb (7.2ms)
+  Rendered users/_preferences.html.erb (21.8ms)
+  Rendered my/_sidebar.html.erb (5.6ms)
+  Rendered my/account.html.erb within layouts/base (47.0ms)
+Completed 200 OK in 79ms (Views: 47.7ms | ActiveRecord: 21.5ms)
+Started GET "/admin" for 172.23.0.1 at 2019-09-23 23:55:41 +0900
+Processing by AdminController#index as HTML
+  Current user: admin (id=1)
+  Rendering admin/index.html.erb within layouts/admin
+  Rendered admin/_menu.html.erb (4.7ms)
+  Rendered admin/index.html.erb within layouts/admin (10.2ms)
+  Rendering layouts/base.html.erb
+  Rendered layouts/base.html.erb (13.6ms)
+Completed 200 OK in 59ms (Views: 29.6ms | ActiveRecord: 15.8ms)
+Started GET "/users" for 172.23.0.1 at 2019-09-23 23:55:43 +0900
+Processing by UsersController#index as HTML
+  Current user: admin (id=1)
+  Rendering users/index.html.erb within layouts/admin
+  Rendered users/index.html.erb within layouts/admin (12.3ms)
+  Rendered admin/_menu.html.erb (3.4ms)
+  Rendering layouts/base.html.erb
+  Rendered layouts/base.html.erb (6.8ms)
+Completed 200 OK in 60ms (Views: 27.4ms | ActiveRecord: 20.7ms)
+Started GET "/users?utf8=%E2%9C%93&status=2&name=&encoding=CP932" for 172.23.0.1 at 2019-09-23 23:55:49 +0900
+Processing by UsersController#index as HTML
+  Parameters: {"utf8"=>"✓", "status"=>"2", "name"=>"", "encoding"=>"CP932"}
+  Current user: admin (id=1)
+  Rendering users/index.html.erb within layouts/admin
+  Rendered users/index.html.erb within layouts/admin (14.0ms)
+  Rendered admin/_menu.html.erb (3.3ms)
+  Rendering layouts/base.html.erb
+  Rendered layouts/base.html.erb (8.6ms)
+Completed 200 OK in 92ms (Views: 36.3ms | ActiveRecord: 32.8ms)
+Started PUT "/users/5?status=2&user%5Bstatus%5D=1" for 172.23.0.1 at 2019-09-23 23:56:10 +0900
+Processing by UsersController#update as HTML
+  Parameters: {"authenticity_token"=>"ozq7cq9Qo0hAly+HCjvCrYniUE+P3DQm2DRbcKE/OHyctFTpJyK3oVF8oKVaSvI+F6NguWb+iWiz9iI8U1h7Sg==", "status"=>"2", "user"=>{"status"=>"1"}, "id"=>"5"}
+  Current user: admin (id=1)
+[ActiveJob] Enqueued ActionMailer::DeliveryJob (Job ID: 133f4189-e46b-4a24-a529-28ae1d40dfdf) to Async(mailers) with arguments: "Mailer", "account_activated", "deliver_now", #<GlobalID:0x00007f8781af76d8 @uri=#<URI::GID gid://redmine-app/User/5>>
+Redirected to http://localhost/users?utf8=%E2%9C%93&status=2&name=&encoding=CP932
+Completed 302 Found in 62ms (ActiveRecord: 32.6ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [133f4189-e46b-4a24-a529-28ae1d40dfdf] Performing ActionMailer::DeliveryJob (Job ID: 133f4189-e46b-4a24-a529-28ae1d40dfdf) from Async(mailers) with arguments: "Mailer", "account_activated", "deliver_now", #<GlobalID:0x00007f8781af9258 @uri=#<URI::GID gid://redmine-app/User/5>>
+Started GET "/users?utf8=%E2%9C%93&status=2&name=&encoding=CP932" for 172.23.0.1 at 2019-09-23 23:56:10 +0900
+Processing by UsersController#index as HTML
+  Parameters: {"utf8"=>"✓", "status"=>"2", "name"=>"", "encoding"=>"CP932"}
+[ActiveJob] [ActionMailer::DeliveryJob] [133f4189-e46b-4a24-a529-28ae1d40dfdf]   Rendering mailer/account_activated.text.erb within layouts/mailer
+[ActiveJob] [ActionMailer::DeliveryJob] [133f4189-e46b-4a24-a529-28ae1d40dfdf]   Rendered mailer/account_activated.text.erb within layouts/mailer (1.3ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [133f4189-e46b-4a24-a529-28ae1d40dfdf]   Rendering mailer/account_activated.html.erb within layouts/mailer
+[ActiveJob] [ActionMailer::DeliveryJob] [133f4189-e46b-4a24-a529-28ae1d40dfdf]   Rendered mailer/account_activated.html.erb within layouts/mailer (0.8ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [133f4189-e46b-4a24-a529-28ae1d40dfdf] Performed ActionMailer::DeliveryJob (Job ID: 133f4189-e46b-4a24-a529-28ae1d40dfdf) from Async(mailers) in 37.57ms
+  Current user: admin (id=1)
+  Rendering users/index.html.erb within layouts/admin
+  Rendered users/index.html.erb within layouts/admin (2.5ms)
+  Rendered admin/_menu.html.erb (2.1ms)
+  Rendering layouts/base.html.erb
+  Rendered layouts/base.html.erb (9.2ms)
+Completed 200 OK in 48ms (Views: 16.5ms | ActiveRecord: 14.2ms)
+Started GET "/users?utf8=%E2%9C%93&status=1&name=&encoding=CP932" for 172.23.0.1 at 2019-09-23 23:56:14 +0900
+Processing by UsersController#index as HTML
+  Parameters: {"utf8"=>"✓", "status"=>"1", "name"=>"", "encoding"=>"CP932"}
+  Current user: admin (id=1)
+  Rendering users/index.html.erb within layouts/admin
+  Rendered users/index.html.erb within layouts/admin (9.8ms)
+  Rendered admin/_menu.html.erb (8.8ms)
+  Rendering layouts/base.html.erb
+  Rendered layouts/base.html.erb (9.7ms)
+Completed 200 OK in 81ms (Views: 29.7ms | ActiveRecord: 29.8ms)
+Started POST "/logout" for 172.23.0.1 at 2019-09-23 23:56:19 +0900
+Processing by AccountController#logout as HTML
+  Parameters: {"authenticity_token"=>"ltlPI6ZJIykV2zBcoI9l44oytezCoQ/Coj7+NvXg8lapV6C4Ljs3wAQwv37w/lVwFHOFGiuDsozJ/Id6B4exYA=="}
+  Current user: admin (id=1)
+Redirected to http://localhost/
+Completed 302 Found in 41ms (ActiveRecord: 27.8ms)
+Started GET "/" for 172.23.0.1 at 2019-09-23 23:56:19 +0900
+Processing by WelcomeController#index as HTML
+  Current user: anonymous
+  Rendering welcome/index.html.erb within layouts/base
+  Rendered welcome/index.html.erb within layouts/base (1.2ms)
+Completed 200 OK in 29ms (Views: 11.1ms | ActiveRecord: 7.1ms)
+Started GET "/login" for 172.23.0.1 at 2019-09-23 23:56:20 +0900
+Processing by AccountController#login as HTML
+  Current user: anonymous
+  Rendering account/login.html.erb within layouts/base
+  Rendered account/login.html.erb within layouts/base (1.2ms)
+Completed 200 OK in 18ms (Views: 9.7ms | ActiveRecord: 2.5ms)
+Started POST "/login" for 172.23.0.1 at 2019-09-23 23:56:23 +0900
+Processing by AccountController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Yv4s/qNn2Y//2DHqJfKf97pzTQnVOewyQPuUnTvz8ePNGhMVW7KUr1eXQFvpkMzDdFtBmsNhpUk1V6olxQ8bfw==", "back_url"=>"http://localhost/", "username"=>"test1", "password"=>"[FILTERED]", "login"=>"ログイン"}
+  Current user: anonymous
+Successful authentication for 'test1' from 172.23.0.1 at 2019-09-23 14:56:23 UTC
+Redirected to http://localhost/
+Completed 302 Found in 45ms (ActiveRecord: 27.8ms)
+Started GET "/" for 172.23.0.1 at 2019-09-23 23:56:23 +0900
+Processing by WelcomeController#index as HTML
+  Current user: test1 (id=5)
+  Rendering welcome/index.html.erb within layouts/base
+  Rendered welcome/index.html.erb within layouts/base (16.5ms)
+Completed 200 OK in 48ms (Views: 16.3ms | ActiveRecord: 21.7ms)
+Started GET "/projects?jump=welcome" for 172.23.0.1 at 2019-09-23 23:56:26 +0900
+Processing by ProjectsController#index as HTML
+  Parameters: {"jump"=>"welcome"}
+  Current user: test1 (id=5)
+  Rendering projects/index.html.erb within layouts/base
+  Rendered projects/index.html.erb within layouts/base (11.5ms)
+Completed 200 OK in 69ms (Views: 15.2ms | ActiveRecord: 27.1ms)
+Started GET "/projects/quarter" for 172.23.0.1 at 2019-09-23 23:56:28 +0900
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"quarter"}
+  Current user: test1 (id=5)
+  Rendering projects/show.html.erb within layouts/base
+  Rendered projects/_members_box.html.erb (0.1ms)
+  Rendered projects/show.html.erb within layouts/base (5.2ms)
+Completed 200 OK in 61ms (Views: 12.9ms | ActiveRecord: 24.6ms)
+Started GET "/my/account" for 172.23.0.1 at 2019-09-23 23:56:30 +0900
+Processing by MyController#account as HTML
+  Current user: test1 (id=5)
+  Rendering my/account.html.erb within layouts/base
+  Rendered users/_mail_notifications.html.erb (7.3ms)
+  Rendered users/_preferences.html.erb (20.4ms)
+  Rendered my/_sidebar.html.erb (3.2ms)
+  Rendered my/account.html.erb within layouts/base (44.2ms)
+Completed 200 OK in 74ms (Views: 45.2ms | ActiveRecord: 20.3ms)
+Started POST "/logout" for 172.23.0.1 at 2019-09-23 23:56:51 +0900
+Processing by AccountController#logout as HTML
+  Parameters: {"authenticity_token"=>"pFoJb0k0LyxEL123IbC7pQd2VnDnHIW5n1LfiwECV9DfVLJQxkOzvodSr8zWAbdCsx83WLPzVTFECbNS4RexBw=="}
+  Current user: test1 (id=5)
+Redirected to http://localhost/
+Completed 302 Found in 42ms (ActiveRecord: 28.1ms)
+Started GET "/" for 172.23.0.1 at 2019-09-23 23:56:51 +0900
+Processing by WelcomeController#index as HTML
+  Current user: anonymous
+  Rendering welcome/index.html.erb within layouts/base
+  Rendered welcome/index.html.erb within layouts/base (0.9ms)
+Completed 200 OK in 20ms (Views: 6.4ms | ActiveRecord: 6.0ms)
+Started GET "/login" for 172.23.0.1 at 2019-09-23 23:56:56 +0900
+Processing by AccountController#login as HTML
+  Current user: anonymous
+  Rendering account/login.html.erb within layouts/base
+  Rendered account/login.html.erb within layouts/base (0.7ms)
+Completed 200 OK in 12ms (Views: 5.8ms | ActiveRecord: 1.7ms)
+Started POST "/login" for 172.23.0.1 at 2019-09-23 23:56:58 +0900
+Processing by AccountController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bOf2dq0NV6+WJ56iAOOiXxqjhGSct9K1bnz0IT5RMOgsDBeJWu+h5Xk+s8N2QDqviUOX9Dvy8HrVqYfGXqNuBQ==", "back_url"=>"http://localhost/", "username"=>"admin", "password"=>"[FILTERED]", "login"=>"ログイン"}
+  Current user: anonymous
+Successful authentication for 'admin' from 172.23.0.1 at 2019-09-23 14:56:58 UTC
+Redirected to http://localhost/
+Completed 302 Found in 49ms (ActiveRecord: 31.4ms)
+Started GET "/" for 172.23.0.1 at 2019-09-23 23:56:58 +0900
+Processing by WelcomeController#index as HTML
+  Current user: admin (id=1)
+  Rendering welcome/index.html.erb within layouts/base
+  Rendered welcome/index.html.erb within layouts/base (2.5ms)
+Completed 200 OK in 20ms (Views: 9.6ms | ActiveRecord: 4.6ms)
+Started GET "/admin" for 172.23.0.1 at 2019-09-23 23:57:02 +0900
+Processing by AdminController#index as HTML
+  Current user: admin (id=1)
+  Rendering admin/index.html.erb within layouts/admin
+  Rendered admin/_menu.html.erb (2.3ms)
+  Rendered admin/index.html.erb within layouts/admin (4.1ms)
+  Rendering layouts/base.html.erb
+  Rendered layouts/base.html.erb (8.7ms)
+Completed 200 OK in 35ms (Views: 13.6ms | ActiveRecord: 14.3ms)
+Started GET "/settings" for 172.23.0.1 at 2019-09-23 23:57:05 +0900
+Processing by SettingsController#index as HTML
+  Current user: admin (id=1)
+  Rendering settings/edit.html.erb within layouts/admin
+  Rendered settings/_general.html.erb (12.7ms)
+  Rendered settings/_display.html.erb (46.1ms)
+  Rendered settings/_authentication.html.erb (10.7ms)
+  Rendered settings/_api.html.erb (3.0ms)
+  Rendered settings/_projects.html.erb (11.8ms)
+  Rendered settings/_users.html.erb (21.4ms)
+  Rendered queries/_columns.html.erb (4.8ms)
+  Rendered settings/_issues.html.erb (20.8ms)
+  Rendered queries/_columns.html.erb (7.8ms)
+  Rendered settings/_timelog.html.erb (35.8ms)
+  Rendered settings/_attachments.html.erb (12.5ms)
+  Rendered settings/_notifications.html.erb (2.3ms)
+  Rendered settings/_mail_handler.html.erb (15.0ms)
+  Rendered settings/_repositories.html.erb (1217.6ms)
+  Rendered common/_tabs.html.erb (1446.6ms)
+  Rendered settings/edit.html.erb within layouts/admin (1450.4ms)
+  Rendered admin/_menu.html.erb (1.8ms)
+  Rendering layouts/base.html.erb
+  Rendered layouts/base.html.erb (9.6ms)
+Completed 200 OK in 1499ms (Views: 1423.5ms | ActiveRecord: 64.4ms)
+Started POST "/settings/edit?tab=api" for 172.23.0.1 at 2019-09-23 23:57:25 +0900
+Processing by SettingsController#edit as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7/R8ffzwx5VKzKeR1zSMbIU/KGV5PO72Dysk8Fb1756VXPnUwYNkg5sUzrgJEp+pc6ABneM9Xd9rNW7qRpvESA==", "settings"=>{"rest_api_enabled"=>"1", "jsonp_enabled"=>"0"}, "commit"=>"保存", "tab"=>"api"}
+  Current user: admin (id=1)
+[ActiveJob] Enqueued ActionMailer::DeliveryJob (Job ID: 6239d17e-0192-4d39-865c-7d3c93c67084) to Async(mailers) with arguments: "Mailer", "settings_updated", "deliver_now", #<GlobalID:0x00007f8780c56930 @uri=#<URI::GID gid://redmine-app/User/1>>, #<GlobalID:0x00007f8780c55e18 @uri=#<URI::GID gid://redmine-app/User/1>>, ["rest_api_enabled"], {:remote_ip=>"172.23.0.1"}
+Redirected to http://localhost/settings?tab=api
+Completed 302 Found in 63ms (ActiveRecord: 37.9ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [6239d17e-0192-4d39-865c-7d3c93c67084] Performing ActionMailer::DeliveryJob (Job ID: 6239d17e-0192-4d39-865c-7d3c93c67084) from Async(mailers) with arguments: "Mailer", "settings_updated", "deliver_now", #<GlobalID:0x00007f8780c7c888 @uri=#<URI::GID gid://redmine-app/User/1>>, #<GlobalID:0x00007f8780c879b8 @uri=#<URI::GID gid://redmine-app/User/1>>, ["rest_api_enabled"], {:remote_ip=>"172.23.0.1"}
+Started GET "/settings?tab=api" for 172.23.0.1 at 2019-09-23 23:57:25 +0900
+Processing by SettingsController#index as HTML
+  Parameters: {"tab"=>"api"}
+[ActiveJob] [ActionMailer::DeliveryJob] [6239d17e-0192-4d39-865c-7d3c93c67084]   Rendering mailer/settings_updated.text.erb within layouts/mailer
+Settings cache cleared.
+[ActiveJob] [ActionMailer::DeliveryJob] [6239d17e-0192-4d39-865c-7d3c93c67084]   Rendered mailer/settings_updated.text.erb within layouts/mailer (9.0ms)
+  Current user: admin (id=1)
+  Rendering settings/edit.html.erb within layouts/admin
+[ActiveJob] [ActionMailer::DeliveryJob] [6239d17e-0192-4d39-865c-7d3c93c67084]   Rendering mailer/settings_updated.html.erb within layouts/mailer
+[ActiveJob] [ActionMailer::DeliveryJob] [6239d17e-0192-4d39-865c-7d3c93c67084]   Rendered mailer/settings_updated.html.erb within layouts/mailer (6.5ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [6239d17e-0192-4d39-865c-7d3c93c67084] Performed ActionMailer::DeliveryJob (Job ID: 6239d17e-0192-4d39-865c-7d3c93c67084) from Async(mailers) in 75.47ms
+  Rendered settings/_general.html.erb (40.2ms)
+  Rendered settings/_display.html.erb (23.1ms)
+  Rendered settings/_authentication.html.erb (29.8ms)
+  Rendered settings/_api.html.erb (4.4ms)
+  Rendered settings/_projects.html.erb (20.1ms)
+  Rendered settings/_users.html.erb (31.9ms)
+  Rendered queries/_columns.html.erb (5.9ms)
+  Rendered settings/_issues.html.erb (41.7ms)
+  Rendered queries/_columns.html.erb (5.7ms)
+  Rendered settings/_timelog.html.erb (15.9ms)
+  Rendered settings/_attachments.html.erb (11.0ms)
+  Rendered settings/_notifications.html.erb (0.5ms)
+  Rendered settings/_mail_handler.html.erb (10.4ms)
+  Rendered settings/_repositories.html.erb (21.4ms)
+  Rendered common/_tabs.html.erb (267.4ms)
+  Rendered settings/edit.html.erb within layouts/admin (269.0ms)
+  Rendered admin/_menu.html.erb (3.3ms)
+  Rendering layouts/base.html.erb
+  Rendered layouts/base.html.erb (6.7ms)
+Completed 200 OK in 315ms (Views: 185.3ms | ActiveRecord: 111.8ms)
+Started GET "/my/account" for 172.23.0.1 at 2019-09-23 23:57:31 +0900
+Processing by MyController#account as HTML
+  Current user: admin (id=1)
+  Rendering my/account.html.erb within layouts/base
+  Rendered users/_mail_notifications.html.erb (8.7ms)
+  Rendered users/_preferences.html.erb (20.8ms)
+  Rendered my/_sidebar.html.erb (6.9ms)
+  Rendered my/account.html.erb within layouts/base (48.6ms)
+Completed 200 OK in 86ms (Views: 49.1ms | ActiveRecord: 26.3ms)

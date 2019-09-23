@@ -1,0 +1,19 @@
+[ N 2019-09-19 00:08:59.4530 34/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2019-09-19 00:08:59.4732 37/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2019-09-19 00:08:59.4742 37/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2019-09-19 00:08:59.4845 37/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 37
+[ N 2019-09-19 00:09:02.8773 37/T4 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2019-09-19 00:09:40.1697 37/T8 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2019-09-19 00:09:40.1701 37/T1 age/Cor/CoreMain.cpp:1246 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2019-09-19 00:09:40.1705 37/T1 age/Cor/CoreMain.cpp:1147 ]: Checking whether to disconnect long-running connections for process 109, application /usr/src/redmine (production)
+[ N 2019-09-19 00:09:40.1710 37/T8 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2019-09-19 00:09:40.1720 37/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2019-09-19 00:09:40.1711 37/Ta Ser/Server.h:902 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2019-09-19 19:03:57.3468 33/T1 age/Wat/WatchdogMain.cpp:1373 ]: Starting Passenger watchdog...
+[ N 2019-09-19 19:03:57.3812 36/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2019-09-19 19:03:57.3819 36/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2019-09-19 19:03:57.4107 36/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 36
+[ N 2019-09-19 19:04:01.6940 36/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+[ E 2019-09-19 21:52:34.8855 36/T6 age/Cor/TelemetryCollector.h:455 ]: Error contacting anonymous telemetry server: Could not resolve host: anontelemetry.phusionpassenger.com
+App 108 output: sh: 1: cvs: not found
