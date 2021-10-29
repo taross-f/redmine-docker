@@ -5,7 +5,7 @@ services:
     image: redmine:4-passenger
     restart: always
     ports:
-      - 80:3000
+      - 18000:3000
     depends_on:
       - ${REDMINE_DB_MYSQL:-mysql}
       - ${REDMINE_MEMCACHED:-memcached}
